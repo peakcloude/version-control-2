@@ -1,0 +1,7 @@
+name: test pipeline
+
+on: push
+
+jobs:
+  checks:
+      runs-on: ubuntu-latest
